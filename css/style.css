@@ -20,7 +20,7 @@ body {
 }
 
 
-.buttons-container {
+.side-menu {
     position: fixed;
     top: 0;
     right: 0;
@@ -42,7 +42,7 @@ a {
     margin: 0 15px;
 }
 
-.shoes-and-text {
+.content {
     text-align: center;
     position: relative;
     top: 50%;
@@ -51,7 +51,7 @@ a {
 
 }
 
-.shoes-and-text .text {
+.content .text {
     font-size: 40px;
     position: relative;
     transform: translateY(-60%);
