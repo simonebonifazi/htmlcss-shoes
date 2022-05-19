@@ -20,16 +20,11 @@ body {
 }
 
 
-.buttons {
-    position: relative;
-}
-
-
-.buttons .buttons-container {
+.buttons-container {
     position: fixed;
     top: 0;
     right: 0;
-    transform: translate(-15%, 5%);
+    transform: translate(-15%, 25%);
 }
 
 a {
