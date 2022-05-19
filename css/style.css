@@ -1,0 +1,79 @@
+/* reset */
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+/*  generics */
+
+/* .container {
+    max-width: 1080px;
+    margin: 0 auto;
+} */
+
+/*  */
+.full-screen {
+    height: 100vh;
+}
+
+
+.buttons {
+    position: relative;
+}
+
+
+.buttons .buttons-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    transform: translate(-15%, 5%);
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    padding: 10px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    margin: 0 15px;
+}
+
+.shoes-and-text {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.shoes-and-text .text {
+    font-size: 40px;
+    position: relative;
+    transform: translateY(-60%);
+}
+
+
+#superga-red {
+    background-color: red;
+    color: yellow;
+}
+
+#stansmith-green {
+    background-color: green;
+    color: yellow;
+}
+
+#converse-yellow {
+    background-color: yellow;
+    color: green;
+}
